@@ -8,13 +8,13 @@ En este módulo se usa el SDK de .NET 6.0. Antes de comenzar el módulo, asegúr
 CLI de .NET
 
 dotnet --list-sdks
+
 Verá un resultado similar al siguiente:
 
 Consola:
 3.1.100 [C:\program files\dotnet\sdk]
 5.0.100 [C:\program files\dotnet\sdk]
 6.0.100 [C:\program files\dotnet\sdk]
-
 
 Compilación y prueba de la API web.
 
