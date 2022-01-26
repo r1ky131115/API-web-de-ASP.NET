@@ -40,4 +40,3 @@ Compilación y prueba de la API web.
   post -c "{"name":"Pizza", "isGlutenFree":false}"
   put 3 -c  "{"id": 3, "name":"PizzaNueva", "isGlutenFree":false}"
   delete "id"
-  
