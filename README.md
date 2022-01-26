@@ -22,20 +22,25 @@ Compilación y prueba de la API web.
   dotnet run
 
 2-Abra un explorador web y vaya a: 
+
   https://localhost:{PORT}/pizza
  
 3- Abra un nuevo terminal integrado desde Visual Studio Code. Para ello, seleccione Terminal > Nuevo terminal en el menú principal y ejecute el siguiente comando:
+
   dotnet tool install -g Microsoft.dotnet-httprepl
   
 4- Conéctese a la API web mediante el comando siguiente:
+
   httprepl https://localhost:{PORT}
     Para ver el punto de conexión de pizzas ya disponible, ejecute el siguiente comando:
         ls
 
 5- Vaya al punto de conexión Pizza ejecutando el siguiente comando:
+
   cd Pizza
 
 6- Realice las solicitudes GET, POST, PUT, DELETE en HttpRepl usando el comando siguiente:
+
   get o get "id"
   post -c "{"name":"Pizza", "isGlutenFree":false}"
   put 3 -c  "{"id": 3, "name":"PizzaNueva", "isGlutenFree":false}"
